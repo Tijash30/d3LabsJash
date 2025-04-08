@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Leaf Project</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="path/to/jquery-ui.css">
+    <script src="path/to/jquery.min.js"></script>
+    <script src="path/to/jquery-ui.min.js"></script>
+    <!-- D3-tip (for tooltips) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="logo.png"></a>      
+        </div>
+    </nav>
+    <button id="play-button" class="btn btn-primary">Play</button>
+    <button id="reset-button" class="btn btn-secondary">Reset</button>
+    <select id="continent-select" class="form-control" style="margin: 20px;">
+        <option selected value="all">All</option>
+        <option value="europe">Europe</option>
+        <option value="asia">Asia</option>
+        <option value="americas">Americas</option>
+        <option value="africa">Africa</option>
+    </select>
+       
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>  
+        </div>
+    </div>
+
+<!-- External JS libraries -->
+<script src="../../resources/Template/js/bootstrap.min.js"></script>
+<script src="../../resources/Template/js/jquery.min.js"></script>
+<script src="../../resources/Template/js/d3.min.js"></script>
+<!-- Custom JS -->
+<script src="main.js"></script>
+
+</body>
+</html>
